@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="mee-clone" src=".github/logo.png" width="160px">
+  <img alt="mee-clone" src=".github/logo.png" width="560px">
 </p>
 
 # Rodar o projeto
