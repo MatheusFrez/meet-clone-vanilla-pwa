@@ -1,4 +1,6 @@
-# 2021-1-aap-matheus
+<p align="center">
+  <img alt="gameplay" src=".github/logo.png" width="160px">
+</p>
 
 # Rodar o projeto
 
