@@ -1,0 +1,21 @@
+{
+   "short_name": "Cefet meet",
+   "name": "Cefet meet",
+   "description": "Se ajudando de forma online",
+   "icons": [
+      {
+         "src": "./assets/img/logo-512x512.png",
+         "type": "image/png",
+         "sizes": "512x512"
+      },
+      {
+         "src": "./assets/img/logo-192x192.png",
+         "type": "image/png",
+         "sizes": "192x192"
+      }
+   ],
+   "start_url": "/index.html",
+   "display": "standalone",
+   "background_color": "#b5f5f2",
+   "theme_color": "#b5f5f2"
+}

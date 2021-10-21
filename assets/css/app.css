@@ -1,0 +1,167 @@
+body {
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+}
+
+.text-center {
+   text-align: center;
+}
+
+.destaque {
+   margin-left: 25px;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+   grid-area: main;
+   height: 85vh;
+}
+
+p {
+   font-family: 'Roboto', sans-serif;
+}
+
+.container {
+   display: grid;
+   grid-template-columns: 24vw 24vw 23vw 25vw;
+   grid-template-rows: auto;
+   grid-template-areas:
+     "header header header header"
+     "main main main sidebar"
+     "footer footer footer footer";
+   column-gap: 10px;
+   row-gap: 15px;
+   background-color: rgb(32,33,36);
+}
+
+.sidebar {
+   grid-area: sidebar;
+   padding-left: 25px;
+   background-color: white;
+   border-radius: 20px;
+}
+
+.title {
+   font-size: 25px;
+}
+
+.card {
+   min-height: 80vh;
+   min-width: 70vw;
+   box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+   transition: 0.3s;
+   border-radius: 25px;
+   display: flex;
+   flex-direction: column;
+}
+
+.left {
+   text-align: left;
+}
+
+button:hover {
+   cursor: pointer;
+}
+
+img {
+   border-radius: 5px 5px 0 0;
+   width: 100%;
+   height: 200px;
+   border-bottom: solid 1px rgb(207, 203, 203);
+}
+
+.margin {
+   margin-top: 10px;;
+}
+
+#video-share:-webkit-full-screen {
+   width: 100%;
+   height: 100%;
+}
+
+#video {
+   max-width: 100%;
+   max-height: 100%;
+}
+
+footer {
+   display: flex;
+   justify-content: space-around;
+   padding-top: 15px;
+   align-self: center;
+   padding-bottom: 15px;
+   grid-area: footer;
+   color: white;
+}
+
+.space-end {
+   margin-right: 20px;
+}
+
+.flex-start {
+   align-items: flex-start;
+}
+
+.flex-center {
+   align-items: center;
+}
+
+.flex-end {
+   align-items: flex-end;
+}
+
+.flex {
+   display: flex;
+}
+
+.flex-between {
+   display: flex;
+   justify-content: space-between;
+}
+
+main footer {
+   background-color: rgb(32,33,36);
+}
+
+.icon-space {
+   margin-left: 20px;
+}
+
+.text-white {
+   color: white;
+}
+
+.avatar-image {
+   width: 50px;
+   height: 50px;
+   border-radius: 35px;
+}
+
+.nome-usuario {
+   margin-left: 10px;
+}
+
+.icones-usuario {
+   margin-top: 15px;
+}
+
+.icone-clicavel:hover {
+   cursor: pointer;
+}
+
+#camera-video {
+   border-radius: 35px;
+}
+
+.icones {
+   width: 26px;
+   height: 26px;
+   border-bottom: none;
+}
+
+.icones-baixo {
+   width: 26px;
+   height: 26px;
+   border-bottom: none;
+   color: white;
+}
+

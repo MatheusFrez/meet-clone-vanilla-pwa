@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cefet meet</title>
+   <link rel="manifest" href="./meet.webmanifest">
+   <link rel="apple-touch-icon" href="./assets/img/logo.png">
+   <link rel="shortcut icon" href="./assets/img/logo.png" type="image/png">
+   <link rel="stylesheet" href="./assets/css/app.css">
+   <meta name="theme-color" content="#b5f5f2">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body class="container">
+   <noscript>
+      <strong>O aplicativo não funciona corretamente sem o JavaScript habilitado. Por favor, ative-o para continuar.</strong>
+   </noscript>
+   <main class="destaque">
+      <div class="card">
+         <div>
+            <video id="camera-video" autoplay></video>
+         </div>
+         <div>
+            <video id="video" autoplay></video>
+         </div>
+      </div>
+      <p class="text-white">* Pressione a tecla "Enter" para visualizar o compartilhamento em tela cheia</p>
+   </main>
+
+   <div class="sidebar">
+      <span class="flex-between">
+         <h2 class="flex-start">Pessoas</h2>
+         <p class="flex-end space-end">
+            <img src="./assets/svgs/close.svg" alt="Pessoas" class="icones"/>
+         </p>
+      </span>
+      <div class="flex-between">
+         <span>
+            <img src="./assets/svgs/sound-mutted.svg" alt="Som desativado" class="icones"/>
+            <p>
+               Todas com o som desativado
+            </p>
+         </span>
+         <span>
+            <img src="./assets/svgs/add-person.svg" alt="Som desativado" class="icones"/>
+            <p>
+               Adic. Pessoas
+            </p>
+         </span>
+         <span>
+            <img src="./assets/svgs/switch.svg" alt="Som desativado" class="icones"/>
+            <p>
+               Controles do organizador
+            </p>
+         </span>
+      </div>
+      <div>
+         <h3>Na Chamada</h3>
+         <div class="flex-between">
+            <div class="flex">
+               <img src="./assets/img/mock-image.png" class="avatar-image" />
+               <p class="nome-usuario">
+                  Matheus Frez (Voce)
+               </p>
+            </div>
+            <img src="./assets/svgs/sound-mutted.svg" alt="Som desativado" class="icones" style="margin-top: 15px;"/>
+            <img src="./assets/svgs/ping.svg" alt="Pin" class="icones" style="margin-right: 2vw; margin-top: 15px;"/>
+         </div>
+      </div>
+   </div>
+
+   <footer>
+      <span class="flex-start flex">
+         <span id="horario-atual">
+         </span>
+         <span>
+            |
+         </span>
+         <span>
+            cbi-mnok-mtd
+         </span>
+      </span>
+      <span class="flex-center">
+         <div class="flex">
+            <img src="./assets/svgs/sound.svg" alt="Som" class="icones-baixo"/>
+            <img src="./assets/svgs/camera-video.svg" alt="Câmera vídeo" class="icones-baixo icon-space icone-clicavel" id="camera-compartilhar"/>
+            <img src="./assets/svgs/display-screen.svg" alt="Compartilhar tela" class="icones-baixo icon-space icone-clicavel" id="compartilhar-tela"/>
+            <img src="./assets/svgs/picture-in-picture.svg" alt="Picture in picture" class="icones-baixo icon-space icone-clicavel" id="picture-in-picture" style="visibility: hidden;" />
+            <img src="./assets/svgs/vertical.svg" alt="Vertical icone" class="icones-baixo icon-space"/>
+            <img src="./assets/svgs/tv.svg" alt="Tv" class="icones-baixo icon-space icone-clicavel"/>
+            <img src="./assets/svgs/fullscreen.svg" alt="Tela cheia" class="icones-baixo icon-space icone-clicavel" id="full-screen"/>
+            <img src="./assets/svgs/exit-fullscreen.svg" alt="Tela cheia" class="icones-baixo icon-space icone-clicavel" id="full-screen-remove"/>
+            <img src="./assets/svgs/exit-telephone.svg" alt="Sair ligação" class="icones-baixo icon-space" id="full-screen-remove"/>
+         </div>
+      </span>
+      <span class="flex-end">
+         <div class="flex">
+            <img src="./assets/svgs/info.svg" alt="Informação" class="icones-baixo"/>
+            <img src="./assets/svgs/person.svg" alt="Pessoas" class="icones-baixo icon-space"/>
+            <img src="./assets/svgs/chat.svg" alt="Chat" class="icones-baixo icon-space"/>
+            <img src="./assets/svgs/triangle.svg" alt="Triângulo" class="icones-baixo icon-space"/>
+            <img src="./assets/svgs/shield.svg" alt="Escudo" class="icones-baixo icon-space"/>
+         </div>
+      </span>
+   </footer>
+
+   <script src="index.js">
+   </script>
+   <script src="./web-apis.js" async>
+   </script>
+</body>
+</html>
